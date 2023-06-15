@@ -1,2 +1,8 @@
 # Embedded-Systems-Course-Projects
 This GitHub repository showcases two projects aimed at enhancing automation and control using Arduino microcontrollers and various sensor modules. The first project focuses on controlling a DC fan, while the second project involves monitoring flame temperature and triggering corresponding actions.
+
+**First Project**
+The first project offers a practical solution for regulating the operation of a DC fan using an Arduino, touch sensor, and relay module. With a simple touch on the sensor, users can conveniently switch the fan on or off, as well as adjust its speed. The Arduino acts as the central control unit, receiving input from the touch sensor and activating the relay module to control the fan's power supply. The repository provides comprehensive documentation, including circuit diagrams and Arduino code, allowing users to replicate and customize the setup according to their requirements.
+
+**Second Project**
+In the second project, a DHT11 temperature and humidity sensor is utilized to monitor flame temperature. The Arduino reads the temperature data from the sensor and compares it to predefined thresholds. If the flame temperature exceeds 30 degrees Celsius, an audible alert is generated through a buzzer to draw attention to the increased temperature. If the temperature goes beyond 32 degrees Celsius, a water pump is activated to provide cooling. This project showcases the potential for using sensor data to trigger appropriate actions and automate responses. The GitHub repository includes detailed instructions, circuit diagrams, and Arduino code to guide users in implementing and expanding upon the flame temperature monitoring system.
